@@ -1,0 +1,48 @@
+{
+	"name": "Visual Studio Classic",
+	"globals": {
+		"background": "#FFFFFF",
+		"foreground": "#000000",
+		"caret": "#000000",
+		"selection": "#E0E0E0",
+		"selection_foreground": "#000000",
+		"line_highlight": "#E8F0F8",
+		"brackets_options": "underline",
+		"brackets_foreground": "#0000FF"
+	},
+	"rules": [
+		{
+			"name": "Comments",
+			"scope": "comment",
+			"foreground": "#008000",
+			"font_style": "italic"
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"foreground": "#A31515"
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"foreground": "#005500"
+		},
+		{
+			"name": "Specific Keywords",
+			"scope": "keyword.control, storage.modifier",
+			"foreground": "#0000FF",
+			// "font_style": "bold"
+		},
+		{
+			"name": "Italic Markup",
+			"scope": "markup.italic",
+			"foreground": "#800080",
+			"font_style": "italic"
+		},
+		{
+			"name": "Bold Markup",
+			"scope": "markup.bold",
+			"font_style": "bold"
+		},
+	]
+}
