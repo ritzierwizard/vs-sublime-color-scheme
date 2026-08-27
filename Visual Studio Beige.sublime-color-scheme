@@ -1,0 +1,69 @@
+{
+	"name": "Visual Studio Beige",
+	"globals": {
+		"background": "beige",
+		"foreground": "#000000",
+		"caret": "#000000",
+		"selection": "#E0E0E0",
+		"selection_foreground": "#000000",
+		"line_highlight": "#E8F0F8",
+		"brackets_options": "underline",
+		"brackets_foreground": "#0000FF"
+	},
+	"rules": [
+		{
+			"name": "Comments",
+			"scope": "comment",
+			"foreground": "#008000",
+			// "font_style": "italic"
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"foreground": "#831515"
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"foreground": "purple"
+		},
+		{
+			"name": "Specific Keywords",
+			"scope": "keyword.control, storage.modifier, constant.language",
+			"foreground": "#0000FF",
+			// "font_style": "bold"
+		},
+		{
+			"name": "Italic Markup",
+			"scope": "markup.italic",
+			"foreground": "#800080",
+			"font_style": "italic"
+		},
+		{
+			"name": "Bold Markup",
+			"scope": "markup.bold",
+			"font_style": "bold"
+		},
+		{
+			"name": "Markup Heading",
+			"scope": "markup.heading",
+			"foreground": "darkgreen"
+		},
+		{
+			"name": "Tags",
+			"scope": "keyword.tag",
+			"foreground": "purple"
+		},
+		{
+			"name": "Markdown Link",
+			"scope": "markup.underline.link",
+			"foreground": "blue",
+			"font_style": "underline"
+		},
+		{
+			"name": "Link Description",
+			"scope": "meta.link.inline.description",
+			"foreground": "purple"
+		}
+	]
+}

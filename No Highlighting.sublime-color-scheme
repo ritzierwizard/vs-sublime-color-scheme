@@ -1,0 +1,36 @@
+
+{
+	"name": "No Highlighting",
+	"globals": {
+		"background": "beige",
+		"foreground": "#000000",
+		"caret": "#000000",
+		"selection": "#E0E0E0",
+		"selection_foreground": "#000000",
+		"line_highlight": "#E8F0F8",
+		"brackets_options": "underline",
+		"brackets_foreground": "#0000FF"
+	},
+	"rules": [
+		{
+			"name": "Italic Markup",
+			"scope": "markup.italic",
+			"font_style": "italic"
+		},
+		{
+			"name": "Bold Markup",
+			"scope": "markup.bold",
+			"font_style": "bold"
+		},
+		{
+			"name": "Bold Italic",
+			"scope": "markup.bold & markup.italic",
+			"font_style": "bold italic"
+		},
+		{
+			"name": "Markdown Link",
+			"scope": "markup.underline.link",
+			"font_style": "underline"
+		}
+	]
+}
