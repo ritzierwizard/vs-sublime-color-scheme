@@ -15,21 +15,21 @@
 			"name": "Comments",
 			"scope": "comment",
 			"foreground": "#008000",
-			"font_style": "italic"
+			// "font_style": "italic"
 		},
 		{
 			"name": "Strings",
 			"scope": "string",
-			"foreground": "#A31515"
+			"foreground": "#831515"
 		},
 		{
 			"name": "Numbers",
 			"scope": "constant.numeric",
-			"foreground": "#005500"
+			"foreground": "purple"
 		},
 		{
 			"name": "Specific Keywords",
-			"scope": "keyword.control, storage.modifier",
+			"scope": "keyword.control, storage.modifier, constant.language",
 			"foreground": "#0000FF",
 			// "font_style": "bold"
 		},
@@ -44,5 +44,26 @@
 			"scope": "markup.bold",
 			"font_style": "bold"
 		},
+		{
+			"name": "Markup Heading",
+			"scope": "markup.heading",
+			"foreground": "darkgreen"
+		},
+		{
+			"name": "Tags",
+			"scope": "keyword.tag",
+			"foreground": "purple"
+		},
+		{
+			"name": "Markdown Link",
+			"scope": "markup.underline.link",
+			"foreground": "blue",
+			"font_style": "underline"
+		},
+		{
+			"name": "Link Description",
+			"scope": "meta.link.inline.description",
+			"foreground": "purple"
+		}
 	]
 }
